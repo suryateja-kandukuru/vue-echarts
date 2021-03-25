@@ -1,18 +1,20 @@
 <template>
   <div id="app">
     <HelloWorld />
+    <MultiChart />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HelloWorld from "./components/HelloWorld.vue";
+import MultiChart from "./components/MultiChart.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    MultiChart
   }
-}
+};
 </script>
 
 <style>

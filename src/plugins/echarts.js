@@ -9,5 +9,7 @@ import 'echarts/lib/chart/scatter'
 import 'echarts/lib/chart/effectScatter'
 import 'echarts/lib/component/tooltip'
 import 'echarts/lib/component/toolbox'
-
+import 'echarts/lib/chart/pie';
+import 'echarts/lib/chart/tree';
+import 'echarts/lib/component/legend'
 Vue.component('chart', VueCharts);
